@@ -26,7 +26,6 @@ int redirection_infos(t_tokenizer *tokens)
 
         tokens->next->redirect.file_fd = fd;
 
-        // Si erreur, on ne fait pas de perror() nous-même, on laisse execute_redirections() gérer
         tokens = tokens->next;
     }
     return 0;
