@@ -1,5 +1,6 @@
 #include "minishell.h"
 
+
 int execute_redirections(t_tokenizer *tokens)
 {
     while (tokens)
